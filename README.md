@@ -1,2 +1,2 @@
 # tara-thai
-Code and assets for the Tara Thai website
+For all code and files related to the website for Tara Thai restaurant, Westcliff

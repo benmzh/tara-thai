@@ -1,0 +1,8 @@
+<html lang="en">
+  <%= partial "partials/head" %>
+  <body>
+    <%= partial "partials/sticky-menu" %>
+    <%= yield %>
+    <%= javascript_include_tag ("google-analytics.js") %>
+  </body>
+</html>

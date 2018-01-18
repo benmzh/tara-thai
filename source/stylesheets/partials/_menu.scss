@@ -1,0 +1,325 @@
+.tt-content-food-menu {
+  background-color: $tt-colour-light-yellow;
+}
+
+.tt-menu-food-headings h1 {
+  text-align: left;
+  font-size: 24px;
+}
+
+.tt-menu-food-section h2 {
+  display: inline-block;
+  text-align: left;
+  font-size: 18px;
+  font-family: Muli;
+  font-weight: bold;
+  color: $tt-colour-red;
+  margin-top: 10px;
+}
+
+.tt-menu-item-name h3 {
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 18px;
+}
+
+span.tt-menu-group-pricing-bold {
+  font-weight: bold;
+}
+
+.tt-menu-item-name p {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "NotoSansThai-Regular";
+  color: $tt-colour-light-red;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.tt-menu-item-number p {
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.tt-menu-item-description p {
+
+}
+
+span.tt-menu-item-description-bold {
+  font-weight: bold;
+}
+
+.tt-menu-item-price p {
+  margin-top: 0px;
+}
+
+.tt-menu-spicy-icon {
+  height: 17px;
+  width: auto;
+}
+
+.tt-menu-food-container {
+  padding: 66px 20px 66px 20px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tt-menu-food-headings {
+  clear: both;
+}
+
+.tt-menu-food-section {
+  display: block;
+}
+
+.tt-menu-food-section-heading {
+  display: block;
+  margin-left: 45px;
+  clear: both;
+}
+
+.tt-arrow-yellow {
+  fill: #E1B336;
+  stroke-width: 0;
+}
+
+.tt-cross {
+  display: none;
+  stroke: $tt-colour-yellow;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+#tt-menu-starters:target div {
+  display: block;
+}
+
+#tt-menu-soups:target div {
+  display: block;
+}
+
+#tt-menu-salads:target div {
+  display: block;
+}
+
+#tt-menu-curries:target div {
+  display: block;
+}
+
+#tt-menu-meat-poultry:target div {
+  display: block;
+}
+
+#tt-menu-speciality-meat-poultry:target div {
+  display: block;
+}
+
+#tt-menu-seafood:target div {
+  display: block;
+}
+
+#tt-menu-speciality-seafood:target div {
+  display: block;
+}
+
+#tt-menu-vegetables:target div {
+  display: block;
+}
+
+#tt-menu-rice-noodles:target div {
+  display: block;
+}
+
+#tt-menu-veg-starters:target div {
+  display: block;
+}
+
+#tt-menu-veg-soups:target div {
+  display: block;
+}
+
+#tt-menu-veg-mains:target div {
+  display: block;
+}
+
+#tt-menu-starters:target svg.tt-cross {
+  display: inline-block;
+}
+
+#tt-menu-soups:target svg.tt-cross {
+  display: inline-block;
+}
+
+#tt-menu-salads:target svg.tt-cross {
+  display: inline-block;
+}
+
+#tt-menu-curries:target svg.tt-cross {
+  display: inline-block;
+}
+
+#tt-menu-meat-poultry:target svg.tt-cross {
+  display: inline-block;
+}
+
+#tt-menu-speciality-meat-poultry:target svg.tt-cross {
+  display: inline-block;
+}
+
+#tt-menu-seafood:target svg.tt-cross {
+  display: inline-block;
+}
+
+#tt-menu-speciality-seafood:target svg.tt-cross {
+  display: inline-block;
+}
+
+#tt-menu-vegetables:target svg.tt-cross {
+  display: inline-block;
+}
+
+#tt-menu-rice-noodles:target svg.tt-cross {
+  display: inline-block;
+}
+
+#tt-menu-veg-starters:target svg.tt-cross {
+  display: inline-block;
+}
+
+#tt-menu-veg-soups:target svg.tt-cross {
+  display: inline-block;
+}
+
+#tt-menu-veg-mains:target svg.tt-cross {
+  display: inline-block;
+}
+
+#tt-menu-starters:target svg.tt-arrow-yellow {
+  display: none;
+}
+
+#tt-menu-soups:target svg.tt-arrow-yellow {
+  display: none;
+}
+
+#tt-menu-salads:target svg.tt-arrow-yellow {
+  display: none;
+}
+
+#tt-menu-curries:target svg.tt-arrow-yellow {
+  display: none;
+}
+
+#tt-menu-meat-poultry:target svg.tt-arrow-yellow {
+  display: none;
+}
+
+#tt-menu-speciality-meat-poultry:target svg.tt-arrow-yellow {
+  display: none;
+}
+
+#tt-menu-seafood:target svg.tt-arrow-yellow {
+  display: none;
+}
+
+#tt-menu-speciality-seafood:target svg.tt-arrow-yellow {
+  display: none;
+}
+
+#tt-menu-vegetables:target svg.tt-arrow-yellow {
+  display: none;
+}
+
+#tt-menu-rice-noodles:target svg.tt-arrow-yellow {
+  display: none;
+}
+
+#tt-menu-veg-starters:target svg.tt-arrow-yellow {
+  display: none;
+}
+
+#tt-menu-veg-soups:target svg.tt-arrow-yellow {
+  display: none;
+}
+
+#tt-menu-veg-mains:target svg.tt-arrow-yellow {
+  display: none;
+}
+
+.tt-menu-group-pricing {
+  display: none;
+  clear: both;
+  text-align: center;
+}
+
+.tt-menu-group-pricing-display {
+  display: block;
+}
+
+.tt-menu-group-pricing-right {
+  text-align: right;
+}
+
+.tt-menu-item-descriptor-container {
+  display: none;
+  float: left;
+  width: 100%;
+}
+
+.tt-menu-item-number {
+  display: none;
+  float: left;
+  width: 45px;
+}
+
+.tt-menu-item-name {
+  display: none;
+  float: left;
+}
+
+.tt-menu-item-description {
+  display: none;
+  clear: both;
+}
+
+.tt-menu-item-description p.center {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.tt-menu-item-price {
+  display: none;
+  float: right;
+  width: 100%;
+  text-align: right;
+}
+
+.tt-menu-set-menu div {
+  display: block;
+}
+
+@media (min-width: 600px) {
+
+  .tt-menu-food-container {
+    padding: 66px 20px 20px 20px;
+  }
+
+
+  .tt-menu-item-descriptor-container {
+    width: 90%;
+  }
+
+  .tt-menu-item-price {
+    width: 10%;
+  }
+}
+
+@media (min-width: 800px) {
+
+  .tt-menu-food-container {
+    padding: 20px;
+  }
+
+}

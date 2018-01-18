@@ -1,0 +1,531 @@
+@charset "utf-8";
+
+@import "utils/normalize";
+@import "utils/colours";
+
+@import "fonts/fonts";
+
+@import "partials/sticky-menu";
+
+@import "partials/menu";
+@import "partials/form-submission-response";
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Muli', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  color: $tt-colour-black;
+  font-size: 18px;
+}
+
+p.invert {
+  color: white;
+}
+
+p.tt-sticky-type {
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+span.tt-sticky-type-bold {
+  font-weight: 700;
+}
+
+p.tt-hero-text {
+  color: white;
+  margin: 0px;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: left;
+}
+
+p.tt-hero-thai-text {
+  font-family: "NotoSansThai-Regular";
+  color: white;
+  margin: 0px;
+  font-size: 22px;
+  text-align: left;
+}
+
+p.tt-hero-text-right {
+  text-align:right;
+  line-height: 26px;
+}
+
+.tt-about-us {
+  text-align: center;
+}
+
+.tt-find-us p {
+  text-align: center;
+}
+
+.tt-opening-hours p {
+  margin: 0px;
+  font-weight: 600;
+}
+
+p.tt-opening-hours-times {
+  font-weight: 700;
+}
+
+.tt-contact-us p {
+  color: white;
+  text-align: center;
+}
+
+.tt-contact-us span {
+  color: $tt-colour-yellow;
+}
+
+h1 {
+  text-align: center;
+  font-size: 18px;
+  color: $tt-colour-black;
+  margin-bottom: 5px;
+}
+
+h1.h1-invert {
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "NotoSansThai-Regular";
+  color: $tt-colour-red;
+  margin-top: 0;
+}
+
+h2.h2-invert {
+  color: $tt-colour-yellow;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: $tt-colour-black;
+  margin-bottom: 5px;
+}
+
+.tt-contact-us h3 {
+  color: white;
+}
+
+img.tt-swirl-icon {
+  height: 36px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.tt-logo-main {
+  width: 95%;
+  height: auto;
+  order: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tt-section {
+  padding: 20px;
+}
+
+.tt-hero {
+  position: relative;
+  height: 100vh;
+  min-height: 450px;
+  padding: 0;
+  text-align: center;
+  z-index: -1;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0.3) 70%, rgba(0, 0, 0, 0.8) 100%), url('../images/tt-hero-bg.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.tt-hero-box-1 {
+  position: absolute;
+  top: 66px;
+  padding-left: 20px;
+}
+
+.tt-hero-box-2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tt-hero-box-3 {
+  position: absolute;
+  bottom: 76px;
+  right: 20px;
+}
+
+.tt-news {
+  display: none;
+  background-color: $tt-colour-light-yellow;
+  text-align: center;
+}
+
+.tt-about-us {
+  height: 1000px;
+  background-color: $tt-colour-red;
+  background: linear-gradient(0deg, rgba(115, 9, 0, 0) 0%, rgba(115, 9, 0, 0) 20%, rgba(115, 9, 0, 1) 40%, rgba(115, 9, 0, 1) 100%), url('../images/tt-about-bg.jpg') no-repeat bottom;
+  background-size: 130% auto;
+}
+
+.tt-book-online {
+  background-color: $tt-colour-light-yellow;
+}
+
+.tt-gallery {
+  text-align: center;
+}
+
+.tt-gallery-item {
+  width: 100%;
+  margin-bottom: 3vw;
+}
+
+.tt-gallery-row-container {
+  position: relative;
+}
+
+.tt-menu-item-link-container {
+  position: absolute;
+  top: 10px;
+  background: url("../images/red-circle.svg") no-repeat;
+  height: 37px;
+  width: 37px;
+}
+
+.tt-menu-item-link-74 {
+  left: 10px;
+}
+
+.tt-menu-item-link-56 {
+  right: 10px;
+}
+
+.tt-menu-item-link-20 {
+  left: 10px;
+}
+
+.tt-menu-item-link-99 {
+  right: 10px;
+}
+
+.tt-menu-item-link-p {
+  left: 10px;
+}
+
+.tt-menu-item-link-34 {
+  right: 10px;
+}
+
+.tt-menu-item-link-container p {
+  color: $tt-colour-yellow;
+  padding-top: 5px;
+  margin: 0px;
+}
+
+.tt-find-us {
+  background-color: $tt-colour-light-yellow;
+  padding: 20px 0px;
+}
+
+.tt-contact-us {
+  background-color: $tt-colour-red;
+}
+
+.tt-booking-form {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tt-booking-form-item {
+  width: 100%;
+  border-radius: 8px;
+  border-color: white;
+  border-width: thick;
+  border-style: solid;
+}
+
+.tt-contact-item {
+  width: 100%;
+}
+
+.tt-contact-item-half {
+  width: 46%;
+  float: left;
+  margin-bottom: 18px;
+}
+
+.tt-contact-item-half-right {
+  float: right;
+}
+
+.tt-contact-item-clear {
+  clear: both;
+}
+
+.tt-contact-item-centred {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tt-cta-button {
+  background-color: $tt-colour-red;
+  color: $tt-colour-yellow;
+}
+
+.tt-reset-button {
+  background-color: #c9c8c8;
+  color: white;
+}
+
+.tt-cta-button:hover {
+  background-color: $tt-colour-yellow;
+  color: $tt-colour-red;
+}
+
+.tt-contact-button {
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  padding: 7px;
+  -webkit-transition: 0.35s color, 0.35s background-color;
+  transition: 0.35s color, 0.35s background-color;
+}
+
+.tt-google-map {
+  width: 100%;
+  min-height: 300px;
+  frameborder: 0;
+  border: 0;
+}
+
+.tt-opening-hours {
+  height: 800px;
+  background: linear-gradient(0deg, rgba(115, 9, 0, 0) 0%, rgba(115, 9, 0, 0.3) 40%, rgba(115, 9, 0, 1) 60%), url('../images/tt-opening-hours-bg.jpg') no-repeat center bottom;
+  background-size: 400px;
+  text-align: center;
+}
+
+.tt-contact-us {
+  padding-bottom: 50px;
+}
+
+.tt-booking-form-item-alternative-colours {
+  border-color: $tt-colour-light-yellow;
+  border-style: solid;
+  background-color: $tt-colour-light-yellow;
+}
+
+.tt-cta-button-alternative-colours {
+  background-color: $tt-colour-yellow;
+  color: $tt-colour-red;
+}
+
+.tt-reset-button-alternative-colours {
+  background-color: $tt-colour-red;
+  color: $tt-colour-black;
+}
+
+.tt-cta-button-alternative-colours:hover {
+  background-color: $tt-colour-red;
+  color: $tt-colour-yellow;
+}
+
+.tt-copyright {
+  color: white;
+  padding-bottom: 20px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.ww-logo {
+  height: 15px;
+  width: auto;
+  margin-top: 5px;
+}
+
+@media (min-width: 350px) {
+  .tt-about-us {
+    height: 920px;
+    background: linear-gradient(0deg, rgba(115, 9, 0, 0) 0%, rgba(115, 9, 0, 0) 30%, rgba(115, 9, 0, 1) 45%, rgba(115, 9, 0, 1) 100%), url('../images/tt-about-bg.jpg') no-repeat bottom;
+    background-size: 120% auto;
+  }
+
+  .tt-google-map {
+    min-height: 400px;
+  }
+
+  .tt-opening-hours {
+    background: linear-gradient(0deg, rgba(115, 9, 0, 0) 0%, rgba(115, 9, 0, 1) 95%), url('../images/tt-opening-hours-bg.jpg') no-repeat center bottom;
+    background-size: 600px;
+  }
+
+}
+
+@media (min-width: 600px) {
+
+  p.tt-hero-text {
+    font-size: 24px;
+    line-height: 42px;
+  }
+
+  p.tt-hero-thai-text {
+    font-size: 30px;
+  }
+
+  p.tt-hero-text-right {
+    line-height: 36px;
+  }
+
+  img.tt-logo-main {
+    width: 90%;
+  }
+
+  .tt-hero {
+    min-height: 600px;
+    z-index: auto;
+  }
+
+  .tt-hero-box-1 {
+    top: 66px;
+  }
+
+  .tt-hero-box-3 {
+    bottom: 31px;
+  }
+
+  .tt-about-us {
+    height: 800px;
+    background: linear-gradient(0deg, rgba(115, 9, 0, 0) 0%, rgba(115, 9, 0, 0) 30%, rgba(115, 9, 0, 1) 80%, rgba(115, 9, 0, 1) 100%), url('../images/tt-about-bg.jpg') no-repeat bottom;
+    background-size: 100% auto;
+  }
+
+  .tt-menu-item-link-container {
+    top: 20px;
+    background: url("../images/red-circle.svg") no-repeat;
+  }
+
+  .tt-menu-item-link-74 {
+    left: 20px;
+  }
+
+  .tt-menu-item-link-56 {
+    right: 20px;
+  }
+
+  .tt-menu-item-link-20 {
+    left: 20px;
+  }
+
+  .tt-menu-item-link-99 {
+    right: 20px;
+  }
+
+  .tt-menu-item-link-p {
+    left: 20px;
+  }
+
+  .tt-menu-item-link-34 {
+    right: 20px;
+  }
+
+  .tt-google-map {
+    min-height: 500px;
+  }
+
+  .tt-opening-hours {
+    height: 1100px;
+    background: linear-gradient(0deg, rgba(115, 9, 0, 0) 0%, rgba(115, 9, 0, 0) 30%, rgba(115, 9, 0, 1) 100%), url('../images/tt-opening-hours-bg.jpg') no-repeat center bottom;
+    background-size: cover;
+  }
+
+  .tt-footer-left {
+    width: 50%;
+    text-align: left;
+    float: left;
+    padding-top: 9.5px;
+  }
+
+  .tt-footer-right {
+    width: 50%;
+    text-align: right;
+    float: right;
+  }
+
+  .tt-contact-us {
+    padding-bottom: 20px;
+  }
+
+}
+
+@media (min-width: 800px) {
+
+  img.tt-logo-main {
+    width: 80%;
+  }
+
+  .tt-content {
+    width: 80%;
+    float: right;
+  }
+
+  .tt-hero {
+    min-height: 700px;
+  }
+
+  .tt-hero-box-1 {
+    top: 66px;
+  }
+
+  .tt-hero-box-3 {
+    bottom: 76px;
+  }
+
+  .tt-about-us {
+    height: 1000px;
+    background: linear-gradient(0deg, rgba(115, 9, 0, 0) 0%, rgba(115, 9, 0, 0) 30%, rgba(115, 9, 0, 1) 65%, rgba(115, 9, 0, 1) 100%), url('../images/tt-about-bg.jpg') no-repeat bottom;
+    background-size: 100% auto;
+  }
+
+  .tt-opening-hours {
+    background-position: center;
+  }
+
+}
+
+@media (min-width: 1050px) {
+
+  .tt-gallery-row-container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tt-gallery-item {
+    width: 800px;
+    margin-bottom: 27px;
+  }
+
+}

@@ -1,0 +1,27 @@
+.tt-content-bg-red {
+  background-color: $tt-colour-red;
+  height: 100vh;
+}
+
+.tt-form-submission-response {
+  padding: 50px 20px 20px 20px;
+  background-color: $tt-colour-red;
+}
+
+.tt-form-submission-response-text {
+  text-align: center;
+  color: white;
+}
+
+.tt-form-submission-response-text span{
+  text-align: center;
+  color: $tt-colour-yellow;
+}
+
+@media (min-width: 800px) {
+
+  .tt-form-submission-response {
+    padding: 20px;
+  }
+
+}

@@ -1,0 +1,214 @@
+<div class ="tt-content">
+  <div class="tt-hero tt-section" id="home">
+    <div class="tt-hero-box-1">
+      <p class="tt-hero-thai-text">สวัสดีค่ะ</p>
+      <p class="tt-hero-text">Sawasdee Ka</p>
+    </div>
+    <div class="tt-hero-box-2">
+      <img class="tt-logo-main" src="images/tt-logo.png" alt="Tara Thai Logo">
+    </div>
+    <div class="tt-hero-box-3">
+      <p class="tt-hero-text tt-hero-text-right">Khob Khun Ka</p>
+      <p class="tt-hero-thai-text tt-hero-text-right">ขอบคุณค่ะ</p>
+    </div>
+  </div>
+  <div class="tt-news tt-section">
+    <p></p>
+    <a href="/#book-online"><p class="tt-opening-hours-times">BOOK YOUR TABLE NOW</p></a>
+  </div>
+  <div class="tt-about-us tt-section" id="about-us">
+    <img class="tt-swirl-icon" src="images/tt-swirl-yellow.png" alt="Tara Thai Swirl Icon">
+    <h1 class="h1-invert">About Us</h1>
+    <h2 class="h2-invert">เกี่ยวกับเรา</h2>
+    <p class="invert">
+      A culinary experience in Thai cuisine is synonymous with a journey through
+      Thai culture; every presentation is aesthetic, elegant and indeed graceful.
+    </p>
+    <p class="invert">
+      In Tara Thai, we firmly believe in upholding a tradition which has since
+      propelled Thai food to the forefront of worldwide cuisines. Indeed, it is
+      our utmost intention to provide dining guests with an experience immersed
+      in authenticity which is true to the essence of Thai cuisine.
+    </p>
+    <p class="invert">
+      At Tara Thai, our motto is to serve and we shall endeavour to make your
+      visit to us a truly enjoyable occasion.
+    </p>
+  </div>
+  <div class="tt-book-online tt-section" id="book-online">
+    <img class="tt-swirl-icon" src="images/tt-swirl-red.png" alt="Tara Thai Swirl Icon">
+    <h1 class="h1">Book Online</h1>
+    <h2 class="h2">จองออนไลน์</h2>
+    <form class="tt-booking-form" method="post" action="https://web-workshop-messenger.herokuapp.com/f/a36e9d">
+      <input type="text" maxlength="255" name="stage_left" value="" style="position:absolute; left:-5000px; opacity: 0; z-index: -1;">
+      <div class="tt-contact-item">
+        <h3>Full Name</h3>
+        <input class="tt-booking-form-item" type="text" maxlength="255" id="full-name" name="full-name">
+      </div>
+      <div class="tt-contact-item">
+        <h3>Email Address</h3>
+        <input class="tt-booking-form-item" type="email" maxlength="255" id="email-address" name="email-address" required>
+      </div>
+      <div class="tt-contact-item">
+        <h3>Phone Number</h3>
+        <input class="tt-booking-form-item" type="text" maxlength="255" id="phone-number" name="phone-number" required>
+      </div>
+      <div class="tt-contact-item">
+        <h3>Date</h3>
+        <select class="tt-booking-form-item" maxlength="255" id="date" name="date">
+          <option><script src="javascripts/today.js"></script></option>
+          <option><script src="javascripts/today-plus-1.js"></script></option>
+          <option><script src="javascripts/today-plus-2.js"></script></option>
+          <option><script src="javascripts/today-plus-3.js"></script></option>
+          <option><script src="javascripts/today-plus-4.js"></script></option>
+          <option><script src="javascripts/today-plus-5.js"></script></option>
+          <option><script src="javascripts/today-plus-6.js"></script></option>
+          <option><script src="javascripts/today-plus-7.js"></script></option>
+          <option><script src="javascripts/today-plus-8.js"></script></option>
+          <option><script src="javascripts/today-plus-9.js"></script></option>
+          <option><script src="javascripts/today-plus-10.js"></script></option>
+          <option><script src="javascripts/today-plus-11.js"></script></option>
+          <option><script src="javascripts/today-plus-12.js"></script></option>
+          <option><script src="javascripts/today-plus-13.js"></script></option>
+          <option value="Other - See message">Other Date - please specify in 'Special Requirements'</option>
+        </select>
+      </div>
+      <div class="tt-contact-item tt-contact-item-half">
+        <h3>Time</h3>
+        <input class="tt-booking-form-item" type="text" maxlength="255" id="time" name="time">
+      </div>
+      <div class="tt-contact-item tt-contact-item-half tt-contact-item-half-right">
+        <h3>Guests</h3>
+        <input class="tt-booking-form-item" type="number" min="1" max="100" maxlength="255" id="guests" name="guests">
+      </div>
+      <br>
+      <div class="tt-contact-item tt-contact-item-clear">
+        <h3>Special Requirements</h3>
+        <textarea class="tt-booking-form-item" placeholder="If you have any special requirements (e.g. dietary), please let us know here." rows="4" maxlength="4000" id="message" name="message"></textarea>
+      </div>
+      <div class="tt-contact-item tt-contact-item-centred">
+        <input type="hidden" name="site" value="tara-thai">
+        <input type="submit" value="Place Your Booking" class="button tt-cta-button tt-contact-button">
+      </div>
+      <div class="tt-contact-item tt-contact-item-centred">
+        <input class="tt-reset-button tt-contact-button" type="reset">
+      </div>
+    </form>
+  </div>
+  <div class="tt-gallery tt-section" id="gallery">
+    <img class="tt-swirl-icon" src="images/tt-swirl-red.png" alt="Tara Thai Swirl Icon">
+    <h1 class="h1">Gallery</h1>
+    <h2 class="h2">ภาพ</h2>
+    <div class="tt-gallery-row-container">
+      <img class="tt-gallery-item" src="images/tt-gallery-1.jpg" alt="Our Food">
+      <div class="tt-menu-item-link-container tt-menu-item-link-74">
+        <a href="menu.html#tt-menu-speciality-seafood">
+          <p>74</p>
+        </a>
+      </div>
+      <div class="tt-menu-item-link-container tt-menu-item-link-56">
+        <a href="menu.html#tt-menu-speciality-meat-poultry">
+          <p>56</p>
+        </a>
+      </div>
+    </div>
+    <div class="tt-gallery-row-container">
+      <img class="tt-gallery-item" src="images/tt-gallery-2.jpg" alt="Our Food">
+      <div class="tt-menu-item-link-container tt-menu-item-link-20">
+        <a href="menu.html#tt-menu-salads">
+          <p>20</p>
+        </a>
+      </div>
+      <div class="tt-menu-item-link-container tt-menu-item-link-99">
+        <a href="menu.html#tt-menu-rice-noodles">
+          <p>99</p>
+        </a>
+      </div>
+    </div>
+    <div class="tt-gallery-row-container">
+      <img class="tt-gallery-item" src="images/tt-gallery-3.jpg" alt="Our Food">
+      <div class="tt-menu-item-link-container tt-menu-item-link-p">
+        <a href="menu.html#tt-menu-starters">
+          <p>P</p>
+        </a>
+      </div>
+      <div class="tt-menu-item-link-container tt-menu-item-link-34">
+        <a href="menu.html#tt-menu-curries">
+          <p>34</p>
+        </a>
+      </div>
+    </div>
+    <div class="tt-gallery-row-container">
+      <img class="tt-gallery-item" src="images/tt-gallery-4.jpg" alt="Our Restaurant">
+    </div>
+    <div class="tt-gallery-row-container">
+      <img class="tt-gallery-item" src="images/tt-gallery-5.jpg" alt="Our Restaurant">
+    </div>
+  </div>
+  <div class="tt-find-us tt-section" id="find-us">
+    <img class="tt-swirl-icon" src="images/tt-swirl-red.png" alt="Tara Thai Swirl Icon">
+    <h1>Find Us</h1>
+    <h2>ที่ตั้ง</h2>
+    <iframe class="tt-google-map" src="https://www.google.com/maps/embed?key=AIzaSyC3pcTjAhay9wSBVp67YHuXtmrwEdb4WCE&pb=!1m18!1m12!1m3!1d4963.075351382283!2d0.6929996761592098!3d51.54003905917896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa3839608bc5f7f94!2sTara+Thai!5e0!3m2!1sen!2suk!4v1487348069629"></iframe>
+    <p>104 Hamlet Court Road, Westcliff, SS0 7LP<p>
+  </div>
+  <div class="tt-opening-hours tt-section" id="opening-hours">
+    <img class="tt-swirl-icon" src="images/tt-swirl-yellow.png" alt="Tara Thai Swirl Icon">
+    <h1 class="h1-invert">Opening Hours</h1>
+    <h2 class="h2-invert">เวลาเปิด</h2>
+    <p class="tt-opening-hours-times invert"><br>Monday - Thursday</p>
+    <p class="tt-opening-hours-times invert">6.00 - 10.30</p>
+    <p class="tt-opening-hours-times invert"><br>Friday - Saturday</p>
+    <p class="tt-opening-hours-times invert">12.00-3.00</p>
+    <p class="tt-opening-hours-times invert">6.00-11.30</p>
+    <p class="tt-opening-hours-times invert"><br>Sunday</p>
+    <p class="tt-opening-hours-times invert">4.00 - 9.30</p>
+    <p class="invert"><br>Last orders 30 minutes before closing times.</p>
+  </div>
+  <div class="tt-contact-us tt-section" id="contact-us">
+    <img class="tt-swirl-icon" src="images/tt-swirl-yellow.png" alt="Tara Thai Swirl Icon">
+    <h1 class="h1-invert">Contact Us</h1>
+    <h2 class="h2-invert">ติดต่อเรา</h2>
+    <p>Call us on <a href="tel:01702391171" title="Call Tara Thai"><span>01702 391 171</span></a>, or send us a message using the form below.</p>
+    <form class="tt-booking-form" method="post" action="https://web-workshop-messenger.herokuapp.com/f/a36e9d">
+      <input type="text" maxlength="255" name="stage_left" value="" style="position:absolute; left:-5000px; opacity: 0; z-index: -1;">
+      <div class="tt-contact-item">
+        <h3>Full Name</h3>
+        <input class="tt-booking-form-item tt-booking-form-item-alternative-colours" type="text" maxlength="255" id="full-name" name="full-name">
+      </div>
+      <div class="tt-contact-item">
+        <h3>Email Address</h3>
+        <input class="tt-booking-form-item tt-booking-form-item-alternative-colours" type="email" maxlength="255" id="email-address" name="email-address" required>
+      </div>
+      <div class="tt-contact-item">
+        <h3>Phone Number</h3>
+        <input class="tt-booking-form-item tt-booking-form-item-alternative-colours" type="text" maxlength="255" id="phone-number" name="phone-number">
+      </div>
+      <div class="tt-contact-item tt-contact-item-clear">
+        <h3>Message</h3>
+        <textarea class="tt-booking-form-item tt-booking-form-item-alternative-colours" rows="4" maxlength="4000" id="message" name="message"></textarea>
+      </div>
+      <div class="tt-contact-item tt-contact-item-centred">
+        <input type="hidden" name="site" value="tara-thai">
+        <input type="hidden" name="date" value="">
+        <input type="hidden" name="time" value="">
+        <input type="hidden" name="guests" value="">
+        <input type="submit" value="Send Message" class="button tt-cta-button-alternative-colours tt-contact-button">
+      </div>
+      <div class="tt-contact-item tt-contact-item-centred">
+        <input class="tt-reset-button-alternative-colours tt-contact-button" type="reset">
+      </div>
+    </form>
+    <footer class="tt-copyright">
+      <div class="tt-footer-left">
+        &copy; Tara Thai Restaurant <%= Time.now.strftime("%Y") %>
+      </div>
+      <div class="tt-footer-right">
+        <a href="https://leigh.webworkshop.ltd" title="Leigh Web Workshop" target="_blank">
+          Website Design &amp; Hosting by Leigh Web Workshop&ensp;
+          <img class="ww-logo" src="images/ww-logo.svg" alt="Web Workshop Logo">
+        </a>
+      </div>
+    </footer>
+  </div>
+</div>
